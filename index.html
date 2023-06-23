@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Interactive rating component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <main>
+      <div class="rating-container container show">
+        <div class="star"><img src="images/icon-star.svg" alt="" /></div>
+        <h1>How did we do?</h1>
+        <p>
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+        <ul class="rate-scale">
+          <li class="to-select">1</li>
+          <li class="to-select">2</li>
+          <li class="to-select">3</li>
+          <li class="to-select">4</li>
+          <li class="to-select">5</li>
+        </ul>
+        <button class="add-btn">submit</button>
+      </div>
+      <div class="thanks-container container hidden">
+        <img src="images/illustration-thank-you.svg" alt="" />
+        <p class="your-rate">You selected <span></span></p>
+        <h2>Thank you!</h2>
+        <p>
+          We appreciate you taking the time to give a rating. If you ever need
+          more support, don’t hesitate to get in touch!
+        </p>
+      </div>
+    </main>
+    <script src="js/main.js"></script>
+  </body>
+</html>
