@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution Repo]()
-- Live Site URL: [Live Site]()
+- Solution URL: [Solution Repo](https://github.com/omarmohy98/Interactive-rating-component)
+- Live Site URL: [Live Site](https://interactive-rating-component-o2t1.onrender.com/)
 
 ## My process
 
